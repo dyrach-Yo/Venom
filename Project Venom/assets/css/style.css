@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.logo-nav {
+    display: flex;
+    gap: 52px;
+    align-items: center;
+}
+
+.logo-nav a{
+    padding-right: 30px;
+}
+
+#head {
+    position:absolute;
+    right: 0;
+    top: 40px;
+}
+
+.hero p:first-child {
+    font-size: 24px;
+    padding-top: 80px;
+    padding-bottom: 39px;
+}
+
+#text {
+    width: 423px;
+    font-size: 16px;
+    padding: 40px 0 70px 0;
+}
+
+.hero-container-btn {
+    display: flex;
+    gap: 20px;
+}
+
+#play p{
+    margin: 0;
+}
+
+#play {
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8D0019;
+    background: #fff;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+#play:hover{
+    color: #6d0014;
+    background: #d4d4d4;
+}
+
+#ticket p{
+    margin: 0;
+}
+
+#ticket {
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    background: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+#ticket:hover { 
+    color: #d4d4d4;
+}
+
+#h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 150px 0 0 0;
+}
+
+#text2 {
+    width: 423px;
+    padding-top: 21px;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+#gr{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+
+}
+
+.glav{
+    display: flex;
+}
+
+.twopart{
+    padding-left: 62px;
+    padding-bottom: 33px;
+}
+
+.section-about_container {
+    display: flex;
+    gap: 30%;
+    margin-bottom: 150px;
+}
+
+.ab-2part {
+    display: flex;
+    padding-top: 200px;
+    gap: 30px;
+}
+.ab-2part img{
+    border: none;
+    border-radius: 10px;
+    height: 543px;
+    width: 362px;
+}
+
+.h3{
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#h3 {
+    padding-top: 20px;
+}
+
+.text_poster {
+    font-size: 16px;
+}
+.text_poster p {
+    width: 110px;
+}
